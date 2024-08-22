@@ -68,22 +68,49 @@ p {
 }
 
 div.email{
-    margin: 10px;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 80%;    
     padding: 10px;
     background-color: #5f2c82;
+    border-radius: 10px;
     
 }
 
 div.senha{
-    margin: 10px;
+    position: relative;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 80%;    
     padding: 10px;
     background-color: #5f2c82;
+    border-radius: 10px;
+    align-content: center;
+
 }
 
-div.button{
-    
+.button{
     display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 80%;    
+    padding: 10px;
+    background-color: #5f2c82;
+    border: none;
+    border-radius: 10px;
     
     
 }
 
+#iemail{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% -50%);
+    
+    border: 0px;
+    width: 90%;
+    
+}
